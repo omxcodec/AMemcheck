@@ -1,5 +1,12 @@
-# AMemcheck
-Android memory check
+Overview
+
+AMemcheck is a memory error detector for Android. It can detect the following problems that are common in C and C++ programs.
+1. Accessing memory you shouldn't, e.g. overrunning and underrunning heap blocks, overrunning the top of the stack, and accessing memory after it has been freed.
+2. Incorrect freeing of heap memory, such as double-freeing heap blocks, or mismatched use of malloc versus free
+3. Memory leaks.
+
+HOWTO
+see test/test.c
 
 If you need help with the library, or just want to discuss related issues,
 you can contact me: Michael Chen (omxcodec@gmail.com)
