@@ -1,0 +1,2 @@
+# AMemcheck
+Android memory check
